@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpProxy", "HttpProxy\HttpProxy.csproj", "{BB315624-2984-476B-9321-188EC7BCC71D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpProxy.Tests", "HttpProxy.Tests\HttpProxy.Tests.csproj", "{15C70FE9-70BE-260D-EFC3-71D105EE03ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BB315624-2984-476B-9321-188EC7BCC71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB315624-2984-476B-9321-188EC7BCC71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB315624-2984-476B-9321-188EC7BCC71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C70FE9-70BE-260D-EFC3-71D105EE03ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C70FE9-70BE-260D-EFC3-71D105EE03ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C70FE9-70BE-260D-EFC3-71D105EE03ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C70FE9-70BE-260D-EFC3-71D105EE03ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
